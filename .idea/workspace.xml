@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d49ffa39-e1ef-44d8-b2af-162aad0cb660" name="Changes" comment="" />
+    <list default="true" id="d49ffa39-e1ef-44d8-b2af-162aad0cb660" name="Changes" comment="level2 is done and level1 as you see">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chewedmole/probation/api/SimpleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chewedmole/probation/api/SimpleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chewedmole/probation/dto/RqChangeName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chewedmole/probation/dto/RqChangeName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/chewedmole/probation/api/SimpleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/chewedmole/probation/api/SimpleController.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,12 +20,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="isToolWindowVisible" value="false" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -79,6 +90,18 @@
       <option name="presentableId" value="Default" />
       <updated>1689249735787</updated>
     </task>
+    <task id="LOCAL-00001" summary="level2 is done and level1 as you see">
+      <created>1689252158627</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1689252158627</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="level2 is done and level1 as you see" />
+    <option name="LAST_COMMIT_MESSAGE" value="level2 is done and level1 as you see" />
   </component>
 </project>
