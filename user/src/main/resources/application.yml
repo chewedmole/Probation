@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: user
+  datasource:
+    url: jdbc:postgresql://localhost:5432/probation
+    username: postgres
+    password: admin
+  liquibase:
+    enabled: true
+    change-log: classpath:db/changelog-master.yml
+    liquibase-schema: public
+  cloud:
+    loadbalancer:
+      ribbon:
+        enabled: false
+server:
+  port: 8081

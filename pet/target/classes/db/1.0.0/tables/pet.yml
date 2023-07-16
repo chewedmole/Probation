@@ -1,0 +1,32 @@
+databaseChangeLog:
+  - logicalFilePath: 1.0.0/tables/pet
+  - changeSet:
+      id: pet-0
+      author: chewedmole
+      changes:
+        - createTable:
+            schemaName: public
+            tableName: pet
+            columns:
+              - column:
+                  name: id
+                  type: bigint
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+                    nullable: false
+              - column:
+                  name: name
+                  type: text
+                  constraints:
+                    nullable: false
+              - column:
+                  name: type
+                  type: text
+                  constraints:
+                    nullable: false
+              - column:
+                  name: owner_id
+                  type: bigint
+                  constraints:
+                    nullable: false

@@ -1,0 +1,19 @@
+package com.chewedmole.probation.gateway.config;
+
+import org.springframework.cloud.gateway.route.RouteLocator;
+import org.springframework.cloud.gateway.route.builder.RouteLocatorBuilder;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class GatewayConfiguration {
+
+    @Bean
+    RouteLocator customRouteLocator(RouteLocatorBuilder builder) {
+        return builder.routes()
+                .route("user", // id-сервиса
+                        route -> route.path("/api/usr/**") // правило, по которому мы перемещаем пользователя
+                                .uri("lb://user") // название урла
+                ).build();
+    }
+}

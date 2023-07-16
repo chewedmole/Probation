@@ -1,0 +1,4 @@
+databaseChangeLog:
+  - include:
+      file: tables/pet.yml
+      relativeToChangeLogFile: true
